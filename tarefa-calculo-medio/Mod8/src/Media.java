@@ -16,15 +16,7 @@ public class Media {
          int nota3= 7;
          double nota4= 6.5;
 
-        nota1 = (nota1 / 4);
-        nota2 = (nota2 / 4);
-        nota3 = (nota3 / 4);
-        nota4 = (nota4 / 4);
-
-        System.out.println("; Média Nota 1: " + nota1);
-        System.out.println(" Média Nota 2: " + nota2);
-        System.out.println(" Média Nota 3: " + nota3);
-        System.out.println(" Média Nota 4: "  + nota4);
+        System.out.println("média total:" + (nota1 + nota2 + nota3 + nota4) / 4);
 
 
     }
